@@ -11,6 +11,7 @@ ul li {
 
 a {
     text-decoration: none;
+    display: block;
 }
 
 body {
@@ -20,40 +21,154 @@ body {
 }
 
 .wrapper {
-    max-width: 1440px;
     margin: 0 auto;
+    max-width: 1440px;
+}
+
+.section {
+    padding: 50px 50px 100px;
 }
 
 .banner {
     display: flex;
-    justify-content: space-between;
+    background-color: #faf6ea;
+}
+
+.banner-container {
+    display: flex;
+    /*justify-content: space-between;*/
     align-items: flex-end;
-    margin: 50px;
 }
 
 .banner__desc {
-    padding-right: 5vw;
+    padding-right: 7vw;
+    /*display: none;*/
+    /*animation: showDiv 3s forwards;*/
+}
+
+@keyframes showDiv {
+    0%, 99% {
+        display: none;
+    }
+    100% {
+        display: block;
+    }
+}
+
+.header {
+    margin-top: 3vh;
+    margin-bottom: 5vh;
+    font-family: 'Cormorant Garamond', serif;
+    font-size: 3.5rem;
+    font-weight: 700;
+    font-style: italic;
 }
 
 .banner__header {
-    margin-bottom: 30px;
-    font-family: 'Cormorant Garamond', serif;
-    font-size: 40px;
-    font-weight: 700;
-    font-style: italic;
     text-align: right;
+    color: #08666e;
+}
+
+.text {
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+    line-height: 2.3rem;
 }
 
 .banner__text {
-    font-family: 'Roboto', sans-serif;
-    font-size: 18px;
-    font-weight: 300;
-    line-height: 30px;
     text-align: right;
+    color: #314241;
 }
 
 .banner__img {
     max-width: 45vw;
-    max-height: 50vh;
+    max-height: 70vh;
 
+}
+
+.content {
+    /*height: 100vh;*/
+    background-color: #c37a5a;
+}
+
+.content-container {
+    width: 80vw;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.content__head {
+
+}
+
+.content__header {
+    text-align: center;
+    color: #faf6ea;
+    /*#314241*/
+    /*#4c241a*/
+}
+
+.content__text {
+    /*margin-left: 7vw;*/
+    font-weight: 300;
+    text-align: left;
+    color: #314241;
+}
+
+.content__main {
+    width: 60vw;
+    margin-top: 7vh;
+    margin-bottom: 5vh;
+    margin-left: 7vw;
+}
+
+.content__item {
+    margin-bottom: 3vh;
+    display: flex;
+    align-items: center;
+}
+
+.content__pic {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 30px;
+}
+
+.star-pic {
+    width: 30px;
+    height: 30px;
+}
+
+.half-moon-pic {
+    width: 50px;
+    height: 50px;
+}
+
+.moon-pic {
+    width: 15px;
+    height: 15px;
+}
+
+.button__container {
+
+}
+
+.button {
+    margin-top: 6vh;
+    padding: 20px 30px;
+    border: 1px solid #faf6ea;
+    color: #faf6ea;
+    font-family: 'Roboto', sans-serif;
+    font-size: 1.3rem;
+    font-weight: 300;
+}
+
+.button:hover {
+    background-color: #314241;
+    border: 1px solid #314241;
 }
