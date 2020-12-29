@@ -20,6 +20,15 @@ body {
     /**/
 }
 
+@media screen and (max-width: 900px) {
+    .banner-container {
+        flex-direction: column-reverse;
+    }
+    .banner__img {
+        max-height: 50vh;
+    }
+}
+
 .wrapper {
     margin: 0 auto;
     max-width: 1440px;
@@ -36,7 +45,6 @@ body {
 
 .banner-container {
     display: flex;
-    /*justify-content: space-between;*/
     align-items: flex-end;
 }
 
@@ -160,7 +168,7 @@ body {
 
 .button {
     margin-top: 6vh;
-    padding: 20px 60px;
+    padding: 20px 70px;
     border: 1px solid #faf6ea;
     color: #faf6ea;
     font-family: 'Roboto', sans-serif;
