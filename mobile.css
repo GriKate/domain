@@ -22,3 +22,32 @@
 .header {
     margin-bottom: 3vh;
 }
+
+.content-container {
+    width: 100%;
+}
+.content__text {
+    margin-bottom: 15px;
+}
+.content__list-text {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+}
+.content__main {
+    width: 100%;
+    margin-left: 0;
+    padding: 5vh 5vw 5vh 80px;
+}
+.content__item {
+    margin: 1vh 0;
+}
+.content__item:nth-child(2)::before {
+    content: "";
+    width: 4px;
+    height: 4px;
+    position: absolute;
+    top: 10%;
+    left: -41px;
+    background-color: #faf6ea;
+    border-radius: 50%;
+}
