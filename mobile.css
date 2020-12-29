@@ -1,0 +1,24 @@
+.section {
+    padding: 20px;
+}
+.banner-container {
+    flex-direction: column-reverse;
+    align-items: center;
+}
+.banner__img {
+    max-height: 50vh;
+}
+.banner__header {
+    text-align: left;
+}
+.text {
+    font-size: 1.5rem;
+    line-height: 2.5rem;
+}
+.banner__text {
+    text-align: left;
+    margin-bottom: 15px;
+}
+.header {
+    margin-bottom: 3vh;
+}

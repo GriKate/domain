@@ -20,14 +20,21 @@ body {
     /**/
 }
 
-@media screen and (max-width: 900px) {
-    .banner-container {
-        flex-direction: column-reverse;
-    }
-    .banner__img {
-        max-height: 50vh;
-    }
-}
+/*@media screen and (max-width: 400px) {*/
+/*    .banner-container {*/
+/*        flex-direction: column-reverse;*/
+/*        align-items: center;*/
+/*    }*/
+/*    .banner__img {*/
+/*        max-height: 50vh;*/
+/*    }*/
+/*    .banner__header {*/
+/*        text-align: left;*/
+/*    }*/
+/*    .banner__text {*/
+/*        text-align: left;*/
+/*    }*/
+/*}*/
 
 .wrapper {
     margin: 0 auto;
